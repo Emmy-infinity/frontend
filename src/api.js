@@ -4,7 +4,7 @@ import { ACCESS_TOKEN } from './constants.js';
 const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "/choreo-apis/npgb/backend-rjz/test-rest-endpoint-5c6/v1.0";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:8000/"
+  baseURL: "https://django-ecommerce-backend-4u8q.onrender.com"
 });
 
 console.log(apiUrl)

@@ -23,7 +23,7 @@ function ImageGallery() {
               alt={img.title}
               style={{ maxWidth: 300, maxHeight: 600 }}
             />
-            <p>{img.title}</p>
+            <p></p>
           </div>
         ))}
       </div>
